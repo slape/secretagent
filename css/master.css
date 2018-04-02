@@ -1,0 +1,125 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.15;
+  color: white;
+}
+
+body {
+  margin: 0;
+  line-height: 1.4em;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 0.66rem;
+  background-color: black;
+}
+
+header .flex-box {
+  justify-content: flex-start;
+}
+
+header img {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+header h3 {
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+.hero {
+  height: 25rem;
+  background-image: url(../resources/photos/moto.jpeg);
+  background-size: cover;
+}
+
+.hero .flex-box {
+  height: 25rem;
+}
+
+.banner {
+  width: 20rem;
+  background-color: black;
+  text-align: left;
+  padding: 2rem 3rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+}
+
+.banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.banner h1 {
+  font-size: 2rem;
+}
+
+nav {
+  padding: 0.75rem 0;
+  background-color: firebrick;
+}
+
+
+figure {
+  margin: 3rem 0;
+  border: 4px solid black;
+  width: 30%;
+  min-height: 13em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+figure img {
+  max-width: 8em;
+  margin: 2rem;
+}
+
+#glasses img {
+  margin: 4.1rem;
+}
+
+figcaption {
+  text-align: center;
+  background-color: black;
+  padding: 0.5rem 0;
+  align-self: stretch;
+}
+
+address h3 {
+  background-color: black;
+  text-align: left;
+  padding: 1rem 2rem;
+}
+
+address p {
+  color: black;
+}
+
+address div {
+  width: 30%;
+}
+
+
+footer {
+  margin-top: 4rem;
+  background-color: black;
+  height: 8rem;
+  text-align: left;
+}
+
+footer .flex-box {
+  height: 8rem;
+}
