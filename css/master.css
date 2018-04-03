@@ -14,6 +14,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   max-width: 960px;
   margin: 0 auto;
 }
@@ -123,3 +124,91 @@ footer {
 footer .flex-box {
   height: 8rem;
 }
+
+@media (min-width: 1024px) {
+  nav.menu {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  nav.nav {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flex-box {
+    max-width: 800px;
+  }
+
+  figure {
+    width: 47%;
+  }
+
+  #glasses {
+    display: none;
+  }
+
+  .banner h3 {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .banner h1 {
+    font-size: 1.8rem;
+  }
+
+
+  }
+
+@media (max-width: 470px) {
+  main .flex-box {
+    justify-content: space-around;
+    max-width: 90%;
+  }
+
+  figure {
+    width: 90%;
+  }
+
+  address div {
+    margin-top: 0.5rem;
+    width: 90%;
+  }
+
+  #watch {
+    display: none;
+  }
+
+  .hero {
+    height: 15rem;
+  }
+
+  .hero.flex-box {
+  
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .banner {
+    height: 5rem;
+    width: 100%;
+    padding: .3rem .8rem;
+    margin-bottom: 0.20rem;
+  }
+
+  .banner h3 {
+    font-size: 0.77rem;
+    margin-bottom: 0.05rem;
+  }
+
+  .banner h1 {
+    font-size: 1rem;
+  }
+
+  }
